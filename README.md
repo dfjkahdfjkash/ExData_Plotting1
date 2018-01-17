@@ -1,3 +1,7 @@
+## Notice: data and png file will be stored in data folder under R main directory.
+
+
+
 ## Introduction
 
 This assignment uses data from
