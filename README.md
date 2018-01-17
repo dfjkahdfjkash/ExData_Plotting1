@@ -1,5 +1,8 @@
-## Notice: 1.dataProvider.R includes the code to read data. Just put it in your working directory.
-           2.Data and png file will be stored in data folder under working directory.
+## Notes: 
+
+1.dataProvider.R includes the code to read data. Just put it in your working directory.
+
+2.Data and png file will be stored in data folder under working directory.
 
 Best regards,
 Harvey
