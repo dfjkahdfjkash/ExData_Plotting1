@@ -12,7 +12,8 @@ give_me_the_data_dude <- function(){
                     header = TRUE, 
                     sep = ";", 
                     stringsAsFactors = FALSE)
-  subHPC <- HPC[HPC$Date %in% c("1/2/2007","2/2/2007"),][c(colnames(HPC)[2:ncol(HPC)]) != "?",]# Extract data set between "1/2/2007" and "2/2/2007", and filter the part containing "?".
+  # Extract data set between "1/2/2007" and "2/2/2007", and filter the part containing "?".
+  subHPC <- HPC[HPC$Date %in% c("1/2/2007","2/2/2007"),][c(colnames(HPC)[2:ncol(HPC)]) != "?",]
   return(subHPC)
 }
 
