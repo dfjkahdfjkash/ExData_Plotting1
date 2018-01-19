@@ -1,4 +1,6 @@
+
 give_me_the_data_dude <- function(){
+  library(data.table)
   # Download data
   fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
   if(!file.exists("./data/household_power_consumption.txt")){
@@ -18,6 +20,7 @@ give_me_the_data_dude <- function(){
 }
 
 give_me_the_data_and_time_dude <- function(){
+  library(lubridate)
   subHPC <- give_me_the_data_dude()
   date_time <- dmy_hms(paste(subHPC$Date, subHPC$Time))# Merge the Date and Time
   data_and_time <- list(subHPC = subHPC, date_time = date_time)
