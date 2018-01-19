@@ -1,4 +1,3 @@
-library(lubridate)
 # Get data
 # subHPC = subset of household power consumption
 # date_time = merged Date and Time of subHPC
