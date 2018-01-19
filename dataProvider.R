@@ -1,4 +1,3 @@
-
 give_me_the_data_dude <- function(){
   library(data.table)
   # Download data
